@@ -1,0 +1,69 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+body{
+  height: 100vh;
+  width: 100%;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card{
+  background-color: #f34e4e;
+  height: 600px;
+  width: 500px;
+  border-radius: 15px;
+  border: 10px solid #fff;
+  box-shadow: 0 0 10px #fff;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.card i {
+  font-size: 120px;
+  color: #fff;
+}
+
+.card .title{
+  font-size: 40px;
+  color: #fff;
+  margin-top: 20px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.subtitle {
+  color: #fff;
+  font-weight: bold;
+  font-family: sans-serif;
+  width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.learn-btn{
+  display: inline-block;
+  background-color: #fff;
+  width: 400px;
+  padding: 10px 0;
+  margin-top: 40px;
+  text-decoration: none;
+  color: #f34e4e;
+  font-size: large;
+  font-family: sans-serif;
+  border-radius: 5px;
+}
+
+.learn-btn:hover{
+  background-color: #ffffff82;
+  color: #fff;
+  transition: 0.5s;
+}

@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: url("images/cover.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 -120px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div{
+  position: absolute;
+  background-color: #00A0C1;
+  display: inline-flex;
+  padding: 34.8px 36.8px;
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+

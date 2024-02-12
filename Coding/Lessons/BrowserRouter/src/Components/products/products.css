@@ -1,0 +1,15 @@
+.wrapper {
+  padding: 3rem 5rem;
+}
+.products{
+  display: flex;
+  gap: 2rem;
+  margin-left: 3rem;
+  margin-top: 2rem;
+}
+.wrapper h2{
+  font-size: 30px;
+  color: #000;
+  font-weight: normal;
+  font-family: sans-serif;
+}

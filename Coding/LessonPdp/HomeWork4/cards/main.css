@@ -1,0 +1,91 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  user-select: none;
+}
+
+body{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container{
+  margin: 0 auto;
+  width: 85vw;
+  text-align: center;
+}
+
+h1{
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+span{
+  color: rgba(255, 255, 0, 0.774);
+}
+
+hr{
+  height: 2px;
+  background-color: rgb(221, 216, 216);
+  border: none;
+}
+
+.cards{
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 30px;
+  background-color: rgb(15, 150, 130);
+  padding: 40px;
+  border-radius: 5px;
+}
+
+.card{
+  text-align: center;
+  background-color: #fff;
+  padding: 20px 0 0 0;
+  border-radius: 5px;
+}
+
+.card h1{
+  text-transform: none;
+  color: pink;
+}
+
+.icon{
+  text-align: center;
+  font-size: 80px;
+  margin-bottom: 20px;
+}
+
+.subtitle{
+  text-align: center;
+  width: 200px;
+  margin: 20px auto;
+  font-size: 20px;
+}
+
+.subtitle + hr{
+  width: 100%;
+}
+
+button{
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: orange;
+  height: 80px;
+  width: 100%;
+  transition: all 0.3s ease;
+}
+
+button:hover{
+  cursor: pointer;
+  background-color: rgb(20, 174, 151);
+  color: #fff;
+}
